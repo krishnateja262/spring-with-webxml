@@ -17,6 +17,11 @@ public class HelloBean {
     
     String firstName;
     String lastName;
+    
+    public HelloBean(){
+        this.firstName = "krishna";
+        this.lastName = "nemani";
+    }
 
     public String getFirstName() {
         return firstName;
