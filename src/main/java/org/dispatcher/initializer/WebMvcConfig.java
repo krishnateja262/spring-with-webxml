@@ -18,7 +18,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  * @author krishna
  */
 @EnableWebMvc
-@ComponentScan(basePackages = {"org.spring.learn"})
+@ComponentScan(basePackages = {"org.dispatcher"})
 @Configuration
 public class WebMvcConfig extends WebMvcConfigurerAdapter {
 
@@ -33,6 +33,7 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
+        registry.addResourceHandler("/views/**").addResourceLocations("/resources/html/");
     }
 
 }

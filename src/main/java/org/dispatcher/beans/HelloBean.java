@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package org.spring.learn.beans;
+package org.dispatcher.beans;
 
 import org.springframework.stereotype.Component;
 

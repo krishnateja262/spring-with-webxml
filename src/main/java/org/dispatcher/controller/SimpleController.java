@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 
-package org.spring.learn.controller;
+package org.dispatcher.controller;
 
-import org.spring.learn.beans.HelloBean;
+import org.dispatcher.beans.HelloBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
